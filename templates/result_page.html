@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="../static/style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div>
+      <h3>Miss France in  {{miss_data['year']}}</h3>
+    </div>
+    <div>
+      <img src="{{miss_data['image_url']}}">
+    </div>
+    <div>
+      <h1>{{miss_data['name']}}</h1>
+    </div>
+    
+    <div>
+      <p>
+        <a href = choose_miss >
+          <button class="button">Go Back to Year Search</button>
+        </a>
+      </p>
+    </div>
+  </body>
+</html>
